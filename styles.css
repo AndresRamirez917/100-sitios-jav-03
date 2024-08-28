@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
 html,
 body {
     font-family: "Montserrat", sans-serif
@@ -60,10 +66,20 @@ h2 {
     --bs-gutter-x:0;
 }
 
+.header .col-md-6 .img-container img {
+    width: 40%;
+     margin: 0;
+     margin-left: 130%;
+     margin-top: -900px;
+     height: 500px;
+}
+
 .about .btn-primar:hover {
     background: black !important;
     color: white !important;
 }
+
+
 
 .text-primar {
     color: #ff6d2d !important;
@@ -71,6 +87,7 @@ h2 {
 
 .text-container {
     font-size: 19px;
+    margin-top: 10rem;
 }
 
 .classes {
